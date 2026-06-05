@@ -12,9 +12,11 @@ It is created as a learning and academic project to understand how classical col
 ```bash
 row-column-transposition-python/
 │
-├── app.py            # Row–Column Transposition cipher implementation (CLI based)
-├── LICENSE           # Project license
-└── README.md         # Project documentation
+├── app.py              # Basic CLI version
+├── interactive.py      # Rich-powered CLI
+├── requirements.txt    # Dependencies
+├── LICENSE             # Project license
+└── README.md           # Project documentation
 ```
 
 ---
@@ -44,6 +46,16 @@ row-column-transposition-python/
 - Ideal for beginners in cryptography
 - No external dependencies
 
+### 🎨 Rich CLI (Interactive Mode)
+- Beautiful colored terminal UI using Rich
+- Structured panels for output display
+- Interactive prompts with validation
+- Enhanced user experience compared to standard CLI
+
+### ⚡ Dual Mode Support
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
+
 ---
 
 ## 🛠 Technologies Used
@@ -52,6 +64,7 @@ row-column-transposition-python/
 | ----------------------- | --------------------------- |
 | **Python 3**            | Core programming language   |
 | **List & Matrix Logic** | Column permutation handling |
+| **Rich**             | Styled CLI, colors, panels     |
 
 ---
 
@@ -79,12 +92,33 @@ git clone https://github.com/ShakalBhau0001/row-column-transposition-python.git
 cd row-column-transposition-python
 ```
 
-### 3️⃣ Run the program
+### 3️⃣ Install Dependencies
+
+```bash
+pip install rich
+```
+
+**OR**
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Running the Project
+
+#### Basic CLI Version
+
 ```bash
 python app.py
 ```
 
-### 4️⃣ Follow the prompts
+#### Rich Interactive Version
+
+```bash
+python interactive.py
+```
+
+### 5️⃣ Follow the prompts for Basic CLI Version
 - Choose direction:
   - `E` → Encrypt
   - `D` → Decrypt
@@ -145,6 +179,12 @@ Decrypted message: MEETMETOMORROWX
 
 This implementation is created **for educational and learning purposes only.**
 The Row–Column Transposition Cipher is historically significant but cryptographically insecure and must not be used to protect real-world sensitive data.
+
+---
+
+## 📸 Preview
+
+![Rich CLI Preview](assets/screenshot.png)
 
 ---
 
