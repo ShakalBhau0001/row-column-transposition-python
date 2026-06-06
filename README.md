@@ -12,6 +12,7 @@ It is created as a learning and academic project to understand how classical col
 ```bash
 row-column-transposition-python/
 │
+├── assets/             # Screenshots
 ├── app.py              # Basic CLI version
 ├── interactive.py      # Rich-powered CLI
 ├── requirements.txt    # Dependencies
