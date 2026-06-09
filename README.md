@@ -185,7 +185,7 @@ The Row–Column Transposition Cipher is historically significant but cryptograp
 
 ## 📸 Preview
 
-![Rich CLI Preview](assets/screenshot.png)
+![Rich CLI Preview](assets/RoCo.png)
 
 ---
 
